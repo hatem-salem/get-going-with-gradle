@@ -1,5 +1,6 @@
 plugins{
-    java
+    java;
+    id("com.dorongold.task-tree") version "3.0.0"
 }
 tasks.named<Jar>("jar"){
     manifest{
